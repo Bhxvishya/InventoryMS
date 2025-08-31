@@ -1,0 +1,138 @@
+{
+  "buildManifest": {
+    "serverBundles": {
+      "nodejs-eyJydW50aW1lIjoibm9kZWpzIn0": {
+        "id": "nodejs-eyJydW50aW1lIjoibm9kZWpzIn0",
+        "file": "build/server/nodejs-eyJydW50aW1lIjoibm9kZWpzIn0/index.js",
+        "config": {
+          "runtime": "nodejs"
+        }
+      }
+    },
+    "routeIdToServerBundleId": {
+      "routes/transactions._index": "nodejs-eyJydW50aW1lIjoibm9kZWpzIn0",
+      "routes/products._index": "nodejs-eyJydW50aW1lIjoibm9kZWpzIn0",
+      "routes/products.new": "nodejs-eyJydW50aW1lIjoibm9kZWpzIn0",
+      "routes/dashboard": "nodejs-eyJydW50aW1lIjoibm9kZWpzIn0",
+      "routes/_index": "nodejs-eyJydW50aW1lIjoibm9kZWpzIn0"
+    },
+    "routes": {
+      "root": {
+        "path": "",
+        "id": "root",
+        "file": "app/root.tsx",
+        "config": {}
+      },
+      "routes/transactions._index": {
+        "file": "app/routes/transactions._index.tsx",
+        "id": "routes/transactions._index",
+        "path": "transactions",
+        "index": true,
+        "parentId": "root",
+        "config": {
+          "runtime": "nodejs"
+        }
+      },
+      "routes/products._index": {
+        "file": "app/routes/products._index.tsx",
+        "id": "routes/products._index",
+        "path": "products",
+        "index": true,
+        "parentId": "root",
+        "config": {
+          "runtime": "nodejs"
+        }
+      },
+      "routes/products.new": {
+        "file": "app/routes/products.new.tsx",
+        "id": "routes/products.new",
+        "path": "products/new",
+        "parentId": "root",
+        "config": {
+          "runtime": "nodejs"
+        }
+      },
+      "routes/dashboard": {
+        "file": "app/routes/dashboard.tsx",
+        "id": "routes/dashboard",
+        "path": "dashboard",
+        "parentId": "root",
+        "config": {
+          "runtime": "nodejs"
+        }
+      },
+      "routes/_index": {
+        "file": "app/routes/_index.tsx",
+        "id": "routes/_index",
+        "index": true,
+        "parentId": "root",
+        "config": {
+          "runtime": "nodejs"
+        }
+      }
+    }
+  },
+  "remixConfig": {
+    "appDirectory": "/Users/ds/Projects/InventoryMS/app",
+    "basename": "/",
+    "buildDirectory": "/Users/ds/Projects/InventoryMS/build",
+    "future": {
+      "v3_fetcherPersist": true,
+      "v3_relativeSplatPath": true,
+      "v3_throwAbortReason": true,
+      "v3_routeConfig": false,
+      "v3_singleFetch": false,
+      "v3_lazyRouteDiscovery": false,
+      "unstable_optimizeDeps": false
+    },
+    "manifest": false,
+    "publicPath": "/",
+    "routes": {
+      "root": {
+        "path": "",
+        "id": "root",
+        "file": "root.tsx"
+      },
+      "routes/transactions._index": {
+        "file": "routes/transactions._index.tsx",
+        "id": "routes/transactions._index",
+        "path": "transactions",
+        "index": true,
+        "parentId": "root"
+      },
+      "routes/products._index": {
+        "file": "routes/products._index.tsx",
+        "id": "routes/products._index",
+        "path": "products",
+        "index": true,
+        "parentId": "root"
+      },
+      "routes/products.new": {
+        "file": "routes/products.new.tsx",
+        "id": "routes/products.new",
+        "path": "products/new",
+        "parentId": "root"
+      },
+      "routes/dashboard": {
+        "file": "routes/dashboard.tsx",
+        "id": "routes/dashboard",
+        "path": "dashboard",
+        "parentId": "root"
+      },
+      "routes/_index": {
+        "file": "routes/_index.tsx",
+        "id": "routes/_index",
+        "index": true,
+        "parentId": "root"
+      }
+    },
+    "serverBuildFile": "index.js",
+    "serverModuleFormat": "esm",
+    "ssr": true
+  },
+  "viteConfig": {
+    "build": {
+      "assetsDir": "assets"
+    }
+  }
+}

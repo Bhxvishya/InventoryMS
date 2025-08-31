@@ -1,6 +1,4 @@
 /** @type {import('@remix-run/dev').AppConfig} */
-module.exports = {
+export default {
   ignoredRouteFiles: ["**/.*"],
-  serverBuildTarget: "vercel",
-  serverBuildPath: "api/index.js",
 };
