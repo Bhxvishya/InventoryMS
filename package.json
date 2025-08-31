@@ -36,5 +36,11 @@
   },
   "engines": {
     "node": ">=18.0.0"
+  },
+  "optionalDependencies": {
+    "@esbuild/linux-x64": "^0.19.12",
+    "@esbuild/darwin-x64": "^0.19.12",
+    "@esbuild/darwin-arm64": "^0.19.12",
+    "@esbuild/win32-x64": "^0.19.12"
   }
 }
