@@ -1,3 +1,7 @@
 {
-  "framework": "remix"
+  "functions": {
+    "app/routes/**": {
+      "maxDuration": 10
+    }
+  }
 }
