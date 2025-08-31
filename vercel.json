@@ -1,0 +1,12 @@
+{
+  "buildCommand": "npm run build",
+  "installCommand": "npm ci",
+  "outputDirectory": "build",
+  "framework": "remix",
+  "functions": {
+    "app/**": {
+      "maxDuration": 10
+    }
+  },
+  "nodeVersion": "20"
+}

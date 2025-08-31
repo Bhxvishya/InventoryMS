@@ -9,6 +9,7 @@ export default defineConfig({
   plugins: [
     remix({
       ignoredRouteFiles: ["**/.*"],
+      ssr: false, // Enable SPA mode for static hosting
     }),
   ],
   resolve: {
