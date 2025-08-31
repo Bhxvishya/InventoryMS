@@ -1,0 +1,6 @@
+
+> start
+> remix-serve ./build/server/index.js
+
+[remix-serve] http://localhost:62737 (http://192.168.100.26:62737)
+
