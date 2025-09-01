@@ -1,10 +1,5 @@
 {
   "framework": "remix",
   "installCommand": "npm ci --legacy-peer-deps || npm install --legacy-peer-deps",
-  "buildCommand": "npm run build",
-  "functions": {
-    "app/entry.server.tsx": {
-      "runtime": "nodejs18.x"
-    }
-  }
+  "buildCommand": "npm run build"
 }
