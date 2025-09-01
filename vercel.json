@@ -1,5 +1,5 @@
 {
   "framework": "remix",
-  "installCommand": "npm ci --legacy-peer-deps || npm install --legacy-peer-deps",
-  "buildCommand": "npm run build"
+  "buildCommand": "remix vite:build",
+  "installCommand": "npm ci --legacy-peer-deps || npm install --legacy-peer-deps"
 }
